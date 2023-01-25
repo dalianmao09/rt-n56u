@@ -33,7 +33,7 @@ jobs:
           - build_variant: "mt7621"
             targets: "K2P_nano"
           - build_variant: "mt7621-usb"
-            targets: "NEWIFI3 B70"
+            targets: "NEWIFI3 B70 ZTE_E8820S"
     steps:
       - uses: actions/checkout@v2
       - name: Prepare environment
