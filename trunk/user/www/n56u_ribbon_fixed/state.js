@@ -516,12 +516,6 @@ function show_menu(L1, L2, L3){
 			tabtitle[3].splice(2,1);
 		}
 	}
-	if (!support_vpn()){	
-		menuL1_link[3] = "";	
-		menuL1_link[4] = "";	
-		menuL1_title[3] = "";	
-		menuL1_title[4] = "";	
-	}
 	for (i=0;i<num_ephy;i++){
 		tablink[8][i+3] = "Main_EStatus_Content.asp#"+i.toString();
 		if (i>0)
